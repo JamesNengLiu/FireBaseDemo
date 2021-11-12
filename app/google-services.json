@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "692647916583",
+    "firebase_url": "https://lxfighting.firebaseio.com",
+    "project_id": "lxfighting",
+    "storage_bucket": "lxfighting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692647916583:android:1ab25da39fd5884c510a02",
+        "android_client_info": {
+          "package_name": "com.lx.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692647916583-t92tfj4k24dkmu1idbgf3ss1ml92p129.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_asdeRqq7LL5ZflteePTsMRpW16JyvVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692647916583-4p90aq5mu0idmmobgiha19ceq6cpmehv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
