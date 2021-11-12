@@ -26,6 +26,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
@@ -37,6 +43,22 @@ android {
     }
     buildFeatures {
         viewBinding true
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("lx.jks")
+            storePassword "123456"
+            keyAlias "lx"
+            keyPassword "123456"
+            v2SigningEnabled true
+        }
+        release {
+            keyAlias "androiddebugkey"
+            storeFile file("debug.keystore")
+            keyPassword "android"
+            storePassword "android"
+        }
     }
 
 }
